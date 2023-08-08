@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Play&family=Roboto:ital,wght@1,300;1,900&display=swap');
-
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -25,19 +21,41 @@ nav{
     height: 9.375rem;
     align-items: center;
 
+
 }
 nav a{
     color: aliceblue;
 }
+
+
+.frase1{
+    color: #1E2425;
+    font-size: 4.0625rem;
+    
+}
+.imagenprincipal img{
+
+        mix-blend-mode:multiply; 
+        height: 43.75rem;
+
+}
+
+
 main{
-    background-image: url("../assets/img/photo-1559825481-12a05cc00344.avif");
+background-image: url("../assets/img/photo-1465634836201-1d5651b9b6d6\ \(1\).png");
+background-size: cover;
 }
-main h1{color:#1E2425;
 
 
-}
+
 main h2{
     color: #1E2425;
+    font-size: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+
 
 }
 
@@ -77,6 +95,47 @@ main h2{
     color:black;
 }
 
+
+.row img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+@media (max-width: 1024px){
+    .column{
+        flex: 25%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .column{
+        flex: 50%;
+    }
+
+}
+
+@media (max-width: 320px){
+    .column{
+        flex: 100%;
+    }
+
+}
+
+
 .footer1{
     background-image: url("../assets/img/photo-1595917324416-8ff9f4e73236.avif");
     background-size: cover;
@@ -85,7 +144,6 @@ main h2{
     font-size: 30px;
 
 }
-
 .footer2{
     background-image: url("../assets/img/linus-nylund-UCIZh0-OYPw-unsplash.jpg");
     background-size: cover;
