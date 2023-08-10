@@ -12,7 +12,7 @@ body{
 
 
 nav{
-    background-image:url("../assets/img/photo-1583767417405-2b4497a676c5.avif");
+    background-image:url("https://images.unsplash.com/photo-1466094899371-97b327dff551?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
     height: 150px;
     background-size: cover;
     background-position: 100%;
@@ -26,7 +26,7 @@ nav{
 
 
 nav a{
-    color: aliceblue;
+    color: rgb(18, 54, 84);
 }
 
 
@@ -159,13 +159,13 @@ main h2{
     background-image: url("https://images.unsplash.com/photo-1521089815383-cf2b2cf7f0f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 300vh;
+    width: 100%;
 }
 .img3 img{
-    height: 600px;
+    height: 50rem;
     width: 100%;
     object-fit: contain;
-
 }
 @media(max-width:700px){
     .colores{
@@ -242,29 +242,16 @@ main h2{
     width: 5rem;
     height: 5rem;
     object-fit: contain;
-
-}
-.card{
-
-}
-
-
-.footer1{
-    background-image: url("../assets/img/photo-1595917324416-8ff9f4e73236.avif");
-    background-size: cover;
-    background-position: bottom;
-    height: 12.5rem;
-    font-size: 30px;
-
-}
-.footer2{
-    background-image: url("../assets/img/linus-nylund-UCIZh0-OYPw-unsplash.jpg");
-    background-size: cover;
     background-position: center;
-    height: 9.375rem;
 
 }
-.footer2 img{
-    height: 100px;
-    margin-top: 50px;
+
+
+
+main .container{
+    font-size:20px;
+    background-image: url("../assets/img/lala.avif");
+    width: 100%;
+    height: 1000px;  
 }
+
