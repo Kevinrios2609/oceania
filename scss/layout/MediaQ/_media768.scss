@@ -1,0 +1,21 @@
+@media (max-width:768px) {
+	nav {
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1.25rem;
+		height: 9.375rem;
+		align-items: center;
+	}
+	.frase1 {
+		color: $color_2;
+		font-size: 20px;
+	}
+	.column {
+		flex: 50%;
+	}
+}
+

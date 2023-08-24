@@ -1,0 +1,26 @@
+main 
+    .img3 {
+	background-image:url(https://images.unsplash.com/photo-1521089815383-cf2b2cf7f0f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80);
+	background-size: cover;
+	background-position: center;
+	height: 300vh!important;
+	width: 100%;
+    img {
+    height: 50rem;
+	width: 100%;
+	object-fit: contain;
+    display: flex;
+    flex-direction: column;}
+}
+
+.colores {
+    background-color: $background-color_1;
+    font-size: 50px;
+    letter-spacing: 20px;
+    padding: 100px;}
+
+.colores2{
+        background-color: $background-color_1;
+        font-size: 25px;
+        letter-spacing: none;
+        padding: 50px;}

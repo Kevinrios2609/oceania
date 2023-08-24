@@ -1,0 +1,28 @@
+main{
+    .container-fluid{
+        background-image: url("../assets/img/photo-1465634836201-1d5651b9b6d6\ \(1\).png");
+        background-size: cover;
+        .imagenprincipal{
+                img {
+                mix-blend-mode: multiply;
+                object-fit: contain;
+                width: 100%;
+                height: 43.75rem;
+                }
+                h2 {
+                color: $color_2;
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+                
+                }
+    }
+}
+
+.frase1{
+    color: $color_2;
+    font-size: 4.0625rem;
+    }
+

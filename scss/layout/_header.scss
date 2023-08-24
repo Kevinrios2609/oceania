@@ -1,0 +1,13 @@
+
+header{
+    nav{
+        background-image: url("https://images.unsplash.com/photo-1466094899371-97b327dff551?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+        height: 150px;
+        background-size: cover;
+        background-position: 100%;
+        @include flex(row, wrap, space-around, center);
+        a{
+            color: $color_1;
+            }
+        }
+}

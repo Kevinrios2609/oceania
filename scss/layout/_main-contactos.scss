@@ -1,0 +1,5 @@
+.main3{
+    background-image: url("../assets/img/lala.avif"); 
+    @include background(cover, center, no-repeat);
+    height: 100vh;  
+}

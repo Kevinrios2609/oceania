@@ -1,0 +1,14 @@
+.mainenvios{
+    background-image: url("../assets/img/lala.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    .card-img-top {
+        width: 5rem;
+        height: 5rem;
+        object-fit: contain;
+        background-position: center;
+    } 
+}
+

@@ -1,0 +1,22 @@
+@media (max-width:1024px) {
+	nav{
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 6.25rem;
+		height: 9.375rem;
+		align-items: center;
+	}
+	.frase1 {
+		color: $color_2;
+		font-size: 40px;
+	}
+	.column {
+		flex: 25%;
+	}
+}
+
+
