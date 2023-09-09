@@ -1,6 +1,6 @@
 # OCEANÍA
 
-##  Accesorios personalizados:tw-1f646:
+##  Accesorios personalizados
 
 > Este proyecto es un sitio web de Accesorios Personalizados (Collares, pulseras, portabarbijos)
 
